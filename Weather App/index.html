@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="weather-container">
+
+            <h1>Weather App</h1>
+
+            <form onsubmit="getData(event)">
+                <input placeholder="Search for City" class="input-box" type="text">
+            </form>
+
+        </div>
+
+        <div class="weather-info">
+            <div class="card-sec-1">
+                <div class="card">
+                    <p>Country Name</p>
+                    <p id="countryName">______</p>
+                </div>
+                <div class="card">
+                    <p>State Name</p>
+                    <p id="stateName">______</p>
+                </div>
+                <div class="card">
+                    <p>City Name</p>
+                    <p id="cityName">______</p>
+                </div>
+            </div>
+            <div class="card-sec-2">
+                <div class="card">
+                    <p>Humidity</p>
+                    <p id="humidity">______</p>
+                </div>
+                <div class="card">
+                    <p>Wind Speed</p>
+                    <p id="windSpeed">______</p>
+                </div>
+                <div class="card">
+                    <p>Tempreture</p>
+                    <p id="tempreture">______</p>
+                </div>
+                <div class="card">
+                    <p>Feels Like</p>
+                    <p id="feels">______</p>
+                </div>
+                <div class="card">
+                    <img src="" id="logoImg" width="20" height="20">
+                    <p id="weatherStatus">______</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
